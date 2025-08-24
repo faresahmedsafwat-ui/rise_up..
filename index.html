@@ -8,7 +8,7 @@
   <title>ارتقي</title>
   <style>
     html { scroll-behavior: smooth; }
-
+ 
     body {
       font-family: 'Segoe UI', Tahoma, sans-serif;
       background-color: #fefefe;
@@ -16,6 +16,8 @@
       padding: 0;
       color: #333;
     }
+    
+
 
     /* Splash Screen */
     .splash-overlay {
@@ -318,43 +320,50 @@
     <div class="splash-text">أهلاً بكِ في موقعنا</div>
   </div>
 
-  <nav class="navbar" role="navigation" aria-label="القائمة الرئيسية">
-    <a href="#header">الرئيسية</a>
-    <a href="#about">من نحن</a>
-    <a href="#courses">كورساتنا</a>
-    <a href="#testimonials">آراء الأمهات</a>
-    <a href="#contact">اتصل بنا</a>
 
-    <div class="province-container" style="margin-right: auto; margin-left: 20px;">
-      <span id="selectedProvince">المحافظات</span>
-      <button id="provinceButton" aria-haspopup="listbox" aria-expanded="false">▼</button>
-      <div id="provinceList" role="listbox" aria-label="قائمة المحافظات">
-        <button type="button" data-province="القاهرة">القاهرة</button>
-        <button type="button" data-province="الجيزة">الجيزة</button>
-        <button type="button" data-province="الإسكندرية">الإسكندرية</button>
-        <button type="button" data-province="الدقهلية">الدقهلية</button>
-        <button type="button" data-province="البحر الأحمر">البحر الأحمر</button>
-        <button type="button" data-province="البحيرة">البحيرة</button>
-        <button type="button" data-province="الفيوم">الفيوم</button>
-        <button type="button" data-province="الغربية">الغربية</button>
-        <button type="button" data-province="الإسماعيلية">الإسماعيلية</button>
-        <button type="button" data-province="المنوفية">المنوفية</button>
-        <button type="button" data-province="المنيا">المنيا</button>
-        <button type="button" data-province="القليوبية">القليوبية</button>
-        <button type="button" data-province="الوادي الجديد">الوادي الجديد</button>
-        <button type="button" data-province="السويس">السويس</button>
-        <button type="button" data-province="أسوان">أسوان</button>
-        <button type="button" data-province="أسيوط">أسيوط</button>
-        <button type="button" data-province="بني سويف">بني سويف</button>
-        <button type="button" data-province="بورسعيد">بورسعيد</button>
-        <button type="button" data-province="دمياط">دمياط</button>
-        <button type="button" data-province="الشرقية">الشرقية</button>
-        <button type="button" data-province="شمال سيناء">شمال سيناء</button>
-        <button type="button" data-province="سوهاج">سوهاج</button>
-        <button type="button" data-province="جنوب سيناء">جنوب سيناء</button>
-      </div>
+
+
+
+
+
+  <nav class="navbar" role="navigation" aria-label="القائمة الرئيسية">
+  <a href="#header">الرئيسية</a>
+  <a href="#about">من نحن</a>
+  <a href="#courses">كورساتنا</a>
+  <a href="#testimonials">آراء الأمهات</a>
+  <a href="#books">الكتب الإلكترونية</a>
+  <a href="#contact">اتصل بنا</a>
+
+  <div class="province-container" style="margin-right: auto; margin-left: 20px;">
+    <span id="selectedProvince">المحافظات</span>
+    <button id="provinceButton" aria-haspopup="listbox" aria-expanded="false">▼</button>
+    <div id="provinceList" role="listbox" aria-label="قائمة المحافظات">
+      <button type="button" data-province="القاهرة">القاهرة</button>
+      <button type="button" data-province="الجيزة">الجيزة</button>
+      <button type="button" data-province="الإسكندرية">الإسكندرية</button>
+      <button type="button" data-province="الدقهلية">الدقهلية</button>
+      <button type="button" data-province="البحر الأحمر">البحر الأحمر</button>
+      <button type="button" data-province="البحيرة">البحيرة</button>
+      <button type="button" data-province="الفيوم">الفيوم</button>
+      <button type="button" data-province="الغربية">الغربية</button>
+      <button type="button" data-province="الإسماعيلية">الإسماعيلية</button>
+      <button type="button" data-province="المنوفية">المنوفية</button>
+      <button type="button" data-province="المنيا">المنيا</button>
+      <button type="button" data-province="القليوبية">القليوبية</button>
+      <button type="button" data-province="الوادي الجديد">الوادي الجديد</button>
+      <button type="button" data-province="السويس">السويس</button>
+      <button type="button" data-province="أسوان">أسوان</button>
+      <button type="button" data-province="أسيوط">أسيوط</button>
+      <button type="button" data-province="بني سويف">بني سويف</button>
+      <button type="button" data-province="بورسعيد">بورسعيد</button>
+      <button type="button" data-province="دمياط">دمياط</button>
+      <button type="button" data-province="الشرقية">الشرقية</button>
+      <button type="button" data-province="شمال سيناء">شمال سيناء</button>
+      <button type="button" data-province="سوهاج">سوهاج</button>
+      <button type="button" data-province="جنوب سيناء">جنوب سيناء</button>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <header id="header">
     <img src="https://th.bing.com/th/id/R.49ebc903c0e26c68eb3d809fc56d08c7?rik=KWNB1Xzohi5i8w&riu=http%3a%2f%2fladybirdar.com%2fwp-content%2fuploads%2f2016%2f11%2f%d8%b5%d9%88%d8%b1-%d8%a7%d9%85-%d9%88%d8%a7%d8%b7%d9%81%d8%a7%d9%84%d9%87%d8%a7.jpg&ehk=5u46VFJ2rWE7CFZz74CWra%2f0Ey0pzwVXO59kcfkuMYY%3d&risl=&pid=ImgRaw&r=0" alt="أم مع أطفالها التوأم" />
@@ -396,9 +405,12 @@
       </p>
     </div>
   </section>
+<img src="https://yt3.googleusercontent.com/ifhmHqiwrANOd577uodrlh1Byllk9robnXi-oNMOWcaH2ZaUo86xR2i55IjpyxH9d0M3MSgqMQ=s800-c-k-c0x00ffffff-no-rj" 
+     alt="صورة القناة" 
+     style="display:block; margin:auto; width:200px; height:200px; border-radius:50%; object-fit:cover;">
 
-  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; text-align: center;">
-    <h2 style="margin-bottom: 20px;">قناة العناية بالتوأم</h2>
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 70vh; text-align: center;">
+    <h2 style="margin-bottom: 20px;">            قناه العنايه بالام و ااطفل    </h2>
     <a href="https://www.youtube.com/channel/UClg-AZcFxnMxtSdLptGWYag" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px 24px; background-color: #FF0000; color: white; text-decoration: none; border-radius: 6px; font-size: 16px; font-weight: bold;">
       🔴 اضغط هنا لزيارة قناة الماميز برو على يوتيوب
     </a>
@@ -423,6 +435,87 @@
     </div>
   </section>
 
+
+<section id="books" style="padding:60px; text-align:center; background:#f9f9f9;">
+  <p>   
+
+<div style="text-align:center; margin-top:30px;">
+  <div style="text-align:center; margin-top:50px;">
+  <p style="font-size:22px; color:rgb(0, 0, 0); font-weight:bold; margin:10;"  >   الكتب الالكترونيه  </p>
+
+</div>
+<div style="text-align:center; margin-top:30px;">
+  <div style="text-align:center; margin-top:50px;">
+  <p style="font-size:22px; color:blue; font-weight:bold; margin:0;">اضغط هنا</p>
+  <p style="font-size:30px; margin:5px 0 0 0;">⬇️</p>
+</div>
+
+
+
+  <a href="https://g.co/gemini/share/f0e4768f7d2b" target="_blank">
+    <img src="https://img.freepik.com/premium-photo/mother-baby_861161-6138.jpg" 
+         alt="غلاف الكتاب" 
+         style="width:200px; border-radius:10px;">
+  </a>
+</div>
+
+
+
+<div style="text-align:center; margin-top:30px;">
+  <div style="text-align:center; margin-top:50px;">
+  <p style="font-size:22px; color:blue; font-weight:bold; margin:0;">اضغط هنا</p>
+  <p style="font-size:30px; margin:5px 0 0 0;">⬇️</p>
+</div>
+
+<a href="https://g.co/gemini/share/b0c2b4dc46f8" target="_blank">
+  <img src=" https://img.freepik.com/premium-photo/hijab-logo_553012-23442.jpg?w=2000 " 
+       alt="غلاف الكتاب" 
+       style="width:200px; border-radius:10px;">
+</a>
+
+
+
+
+
+<section style="text-align:center; margin-top:30px;">
+  <div style="text-align:center; margin-top:50px;">
+  <p style="font-size:22px; color:blue; font-weight:bold; margin:0;">اضغط هنا</p>
+  <p style="font-size:30px; margin:5px 0 0 0;">⬇️</p>
+</div>
+
+
+
+
+
+
+<a href=" https://g.co/gemini/share/868b4198d712  " target="_blank">
+  <img src="  https://img.freepik.com/premium-photo/sahoor-preparation-asian-woman-muslim-cooking-food-early-morning_1009981-194.jpg  " 
+       alt="غلاف الكتاب" 
+       style="width:200px; border-radius:10px;">
+</a>
+
+
+
+<p style="text-align:center; margin-top:30px;">
+  <div style="text-align:center; margin-top:50px;">
+  <p style="font-size:22px; color:blue; font-weight:bold; margin:0;">اضغط هنا</p>
+  <p style="font-size:30px; margin:5px 0 0 0;">⬇️</p>
+</div>
+
+
+
+
+
+<a href=" https://g.co/gemini/share/83c8f02f0310" target="_blank">
+  <img src="   https://i.pinimg.com/736x/6b/44/8d/6b448df787b7f4453c3ce90cb45d9146.jpg     " 
+       alt="غلاف الكتاب" 
+       style="width:200px; border-radius:10px;">
+</a>
+
+</p>
+</section>
+
+
   <section class="articles">
     <div class="article">
       <h2>تنظيم النوم للتوأم</h2>
@@ -442,6 +535,11 @@
       <p>من الطبيعي أن يمر الطفل بنوبات غضب. المهم هو كيفية التعامل معها بهدوء وتعليم الطفل التعبير عن مشاعره بطريقة إيجابية. هذا يبني الثقة بين الأهل والطفل ويعزز النمو النفسي الصحي.</p>
     </div>
   </section>
+<section id="books" style="padding:60px; text-align:center; background:#f9f9f9;">
+  <h2> الكتب الإلكترونية</h2>
+  <p>   </p>
+</section>
+
 
   <!-- آراء الأمهات -->
   <section id="testimonials" class="testimonials" style="background-color: #fff0f3; padding: 40px 20px;">
@@ -536,6 +634,7 @@
   </script>
 </body>
 </html>
+
 
 
 
